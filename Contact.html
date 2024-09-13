@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tsabitha Ayoumi - UKK Bootstrap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/twbs/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="vendor/wow/css/libs/animate.css">
+  <link rel="stylesheet" href="vendor/swiper/swiper-custom.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <header id="header" class="fixed-top bg-primary-custom wow animated slideInDown data-wow-duration=" 1s"
+    data-wow-delay=".3s">
+    <div class="navbar navbar-expand-lg navbar-dark wow animated slideInDown data-wow-duration=" 1s"
+      data-wow-delay=".3s">
+      <div class="container">
+        <a href="/" class="navbar-brand logo">
+          <img src="assets/img/logo/logo-nobg.png" alt="">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="nav navbar-nav nav-underline ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="About.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="noodles.html" class="dropdown-item">Noodles</a></li>
+                <li><a href="drinks.html" class="dropdown-item">Drinks</a></li>
+                <li><a href="friedfood.html" class="dropdown-item">Fried Food</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="Contact.html" class="nav-link active">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="contact" class="contact-us position-relative">
+    <div class="container">
+      <div class="row position-relative">
+        <div class="col-lg-12 wow animated">
+          <div class="section-header">
+            <h2 class="text-center text-dark">Contact Us</h2>
+            <h3 class="text-center">Let's us know how we can help and set up a time to chat with us</h3>
+          </div>
+        </div>
+        <div class="col-lg-6 wow animated slideInLeft text-center" data-wow-duration="1s" data-wow-delay=".3s">
+          <div class="contact-profile">
+            <div class="icons">
+              <a href="/"><i class="bi bi-house-door-fill"></i> Address</a>
+              <p>Jl. Prof. Joko Sutono SH No.2A, RT.1/RW.2, Melawai, Kec. Kebayoran Baru, Jakarta Selatan - Indonesia 12160.</p>
+            </div>
+            <div class="icons">
+              <a href="/"><i class="bi bi-telephone-fill"></i> Phone</a>
+              <p>(021) 7208718</p>
+            </div>
+            <div class="icons">
+              <a href="/"><i class="bi bi-envelope-fill"></i> Email </a>
+              <p><a href="mailto:ayumitsabitha@gmail.com">ayumitsabitha@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow animated slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+          <div class="bg-custom text-light p-4 rounded">
+            <h4 class="text-center mb-3">Let's Talk</h4>
+            <form action="" method="post">
+              <table class="" style="width: 100%;">
+                <tr>
+                  <td>
+                    <label for="name">Nama<span class="required">*</span></label>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control mb-3" id="name" placeholder="Enter Your Name">
+                  </td>
+                </tr>
+                <tr class="mb-5">
+                  <td>
+                    <label for="email">Email<span class="required">*</span></label>
+                  </td>
+                  <td>
+                    <input type="text" id="email" class="form-control mb-3" placeholder="Enter Your Email Address">
+                  </td>
+                </tr>
+                <tr class="mb-3">
+                  <td>
+                    <label for="phone">Phone Number<span class="required">*</span></label>
+                  </td>
+                  <td>
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="Enter Your Phone Number">
+                  </td>
+                </tr>
+              </table>
+              <div class="mb-3 text-center">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" placeholder="Type your message" id="message"></textarea>
+              </div>
+              <div class="text-center section-contact py-4">
+                <button class="btn btn-success" type="submit">Submit</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer id="footer" class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
+    <img src="assets/img/waves/footer.svg" class="footer-waves" alt="">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <div class="logo">
+                <img src="assets/img/logo/logo-nobg.png" alt="Logo" />
+              </div>
+              <p class="mb-3">
+                <strong>Phone:</strong> +62 812-3456-7890<br>
+              </p>
+              <p>
+                Jl. Mie Gacoan No. 50, Kebaoyran Baru <br />
+                Jakarta Selatan, DKI Jakarta, <br />
+                Indonesia
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>About Us</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Products</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Products</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Noodles</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Fried Foods</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Drinks</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Tsabitha Ayoumi</span></strong>. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/swiper/swiper-custom.min.js"></script>
+  <script src="vendor/wow/dist/wow.min.js"></script>
+
+  <script src="assets/js/swiper-custom.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
